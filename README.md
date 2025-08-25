@@ -90,4 +90,21 @@ Sensitive data such as passwords are hashed using secure algorithms (e.g., bcryp
 . Payment Security
 Payment endpoints are protected with additional validation and tokenization. This ensures financial transactions are secure and compliant with industry standards.
 
+#CI/CD Pipeline
+
+- Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code. They ensure that every change pushed to the repository is verified and safely delivered to production, reducing manual errors and accelerating development cycles.
+
+. Why CI/CD Matters
+
+- Consistency: Automated builds and tests ensure code quality across environments.
+- Speed: Faster deployments mean quicker feedback and shorter release cycles.
+- Reliability: Reduces human error and ensures stable releases.
+- Scalability: Supports growing teams and complex systems with minimal friction.
+
+. Tools that you can use
+1. GitHub Actions > Automates workflows like testing and deployment 
+2. Docker > Containerizes the app for consistent environments 
+3. Heroku / Vercel > Simplifies deployment to cloud platforms 
+4. PostgreSQL / MySQL > Manages database migrations and backups 
+
 
