@@ -1,7 +1,7 @@
 # airbnb-clone-project
 This project is a full-stack Airbnb clone built to replicate the core functionality of the popular vacation rental platform. Users can browse listings, book stays, and manage their own properties through a sleek, responsive interface.
 
-#Team Roles
+**Team Roles**
 - Product Owner: Represents the client’s vision, prioritizes features, and ensures the product meets business goals.
 - Project Manager: Oversees timelines, resources, and communication between stakeholders and the team.
 - Business Analyst: Translates business needs into technical requirements and helps define project scope.
@@ -12,7 +12,7 @@ This project is a full-stack Airbnb clone built to replicate the core functional
 - Test Automation Engineers: Build automated testing frameworks to speed up and standardize QA processes.
 - DevOps Engineers: Handle deployment, infrastructure, and continuous integration/delivery pipelines.
 
-#Technology Stack
+**Technology Stack**
 • Django (Python Web Framework)A high-level framework for building secure, scalable web applications quickly.
 - Comes with built-in features like ORM, admin panel, authentication, and routing.
 - Ideal for enterprise platforms, REST/GraphQL APIs, and AI-enhanced backends.
@@ -23,11 +23,11 @@ This project is a full-stack Airbnb clone built to replicate the core functional
   
  • GraphQL (API Query Language) A flexible alternative to REST that lets clients request exactly the data they need.
 
- #Database Design 
+ **Database Design** 
 - Reduces over-fetching and under-fetching, improving performance for mobile and web apps.
 - Works well with Django via libraries like Graphene, enabling dynamic, schema-driven APIs.
 
-#Database Design
+. Database Design
 . Users
 - Name
 - Email
@@ -53,7 +53,7 @@ This project is a full-stack Airbnb clone built to replicate the core functional
  - method
  - amount
     
-#Feature Breakdown
+**Feature Breakdown**
 
 . User Management
 Handles user registration, login, and profile management. This feature ensures secure access and personalized experiences for both hosts and guests, using role-based permissions to differentiate functionality.
@@ -73,7 +73,7 @@ Lets guests leave feedback on properties after their stay. Reviews help maintain
 . Search & Filter
 Provides users with tools to search properties by location, price, amenities, and availability. It improves user experience by helping them find the most suitable options quickly.
 
-#API Security
+**API Security**
 
 . Authentication
 We use token-based authentication (e.g., JWT) to verify user identity. This ensures that only registered users can access protected endpoints and perform actions tied to their account.
@@ -90,7 +90,7 @@ Sensitive data such as passwords are hashed using secure algorithms (e.g., bcryp
 . Payment Security
 Payment endpoints are protected with additional validation and tokenization. This ensures financial transactions are secure and compliant with industry standards.
 
-#CI/CD Pipeline
+**CI/CD Pipeline**
 
 - Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code. They ensure that every change pushed to the repository is verified and safely delivered to production, reducing manual errors and accelerating development cycles.
 
