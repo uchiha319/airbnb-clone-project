@@ -22,5 +22,34 @@ This project is a full-stack Airbnb clone built to replicate the core functional
 - Integrates seamlessly with Django’s ORM for efficient data handling.
   
  • GraphQL (API Query Language) A flexible alternative to REST that lets clients request exactly the data they need.
+
+ #Database Design 
 - Reduces over-fetching and under-fetching, improving performance for mobile and web apps.
 - Works well with Django via libraries like Graphene, enabling dynamic, schema-driven APIs.
+
+#Database Design
+. Users
+- Name
+- Email
+- Id 
+
+. Properties
+- User Id
+- Location
+- Description
+
+. Bookings
+- Status
+- start date
+- end date
+
+. Reviews
+- user-id
+- rating
+- comment
+
+ . Payments 
+ - booking_id
+ - method
+ - amount
+    
