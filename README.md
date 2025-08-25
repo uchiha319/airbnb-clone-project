@@ -73,4 +73,24 @@ Lets guests leave feedback on properties after their stay. Reviews help maintain
 . Search & Filter
 Provides users with tools to search properties by location, price, amenities, and availability. It improves user experience by helping them find the most suitable options quickly.
 
+#API Security
+
+. User Management
+Handles user registration, login, and profile management. This feature ensures secure access and personalized experiences for both hosts and guests, using role-based permissions to differentiate functionality.
+
+. Property Management
+Allows hosts to list properties with details like location, pricing, and availability. It forms the backbone of the platform, enabling dynamic property listings and updates.
+
+. Booking System
+Enables guests to book available properties for specific dates. It includes conflict checks, booking status updates, and calendar integration to streamline the reservation process.
+
+. Payment Integration
+Processes payments securely for confirmed bookings. This feature supports multiple payment methods and ensures transaction reliability, enhancing trust between users.
+
+. Review & Rating System
+Lets guests leave feedback on properties after their stay. Reviews help maintain quality standards and guide future guests in making informed decisions.
+
+. Search & Filter
+Provides users with tools to search properties by location, price, amenities, and availability. It improves user experience by helping them find the most suitable options quickly.
+
 
