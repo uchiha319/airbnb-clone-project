@@ -12,7 +12,7 @@ This project is a full-stack Airbnb clone built to replicate the core functional
 - Test Automation Engineers: Build automated testing frameworks to speed up and standardize QA processes.
 - DevOps Engineers: Handle deployment, infrastructure, and continuous integration/delivery pipelines.
 
-#Techologies 
+#Techology Stack
 • Django (Python Web Framework)
 - A high-level framework for building secure, scalable web applications quickly.
 - Comes with built-in features like ORM, admin panel, authentication, and routing.
