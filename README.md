@@ -75,22 +75,19 @@ Provides users with tools to search properties by location, price, amenities, an
 
 #API Security
 
-. User Management
-Handles user registration, login, and profile management. This feature ensures secure access and personalized experiences for both hosts and guests, using role-based permissions to differentiate functionality.
+. Authentication
+We use token-based authentication (e.g., JWT) to verify user identity. This ensures that only registered users can access protected endpoints and perform actions tied to their account.
 
-. Property Management
-Allows hosts to list properties with details like location, pricing, and availability. It forms the backbone of the platform, enabling dynamic property listings and updates.
+. Authorization
+Role-based access control (RBAC) restricts actions based on user roles (e.g., host vs. guest). This prevents unauthorized access to sensitive operations like property management or booking approvals.
 
-. Booking System
-Enables guests to book available properties for specific dates. It includes conflict checks, booking status updates, and calendar integration to streamline the reservation process.
+. Rate Limiting
+To prevent abuse and denial-of-service attacks, we implement rate limiting on API endpoints. This protects the system from excessive requests and ensures fair usage across users.
 
-. Payment Integration
-Processes payments securely for confirmed bookings. This feature supports multiple payment methods and ensures transaction reliability, enhancing trust between users.
+. Data Protection
+Sensitive data such as passwords are hashed using secure algorithms (e.g., bcrypt). All communication is encrypted via HTTPS to prevent interception and tampering.
 
-. Review & Rating System
-Lets guests leave feedback on properties after their stay. Reviews help maintain quality standards and guide future guests in making informed decisions.
-
-. Search & Filter
-Provides users with tools to search properties by location, price, amenities, and availability. It improves user experience by helping them find the most suitable options quickly.
+. Payment Security
+Payment endpoints are protected with additional validation and tokenization. This ensures financial transactions are secure and compliant with industry standards.
 
 
