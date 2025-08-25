@@ -11,3 +11,19 @@ This project is a full-stack Airbnb clone built to replicate the core functional
 - Quality Assurance Engineers: Test the product to ensure it meets quality standards and is bug-free.
 - Test Automation Engineers: Build automated testing frameworks to speed up and standardize QA processes.
 - DevOps Engineers: Handle deployment, infrastructure, and continuous integration/delivery pipelines.
+
+#Techologies 
+• Django (Python Web Framework)
+- A high-level framework for building secure, scalable web applications quickly.
+- Comes with built-in features like ORM, admin panel, authentication, and routing.
+- Ideal for enterprise platforms, REST/GraphQL APIs, and AI-enhanced backends.
+
+• MySQL (Relational Database)
+A robust, open-source database system for storing structured data.
+- Supports complex queries, joins, and transactions — perfect for analytics and reporting.
+- Integrates seamlessly with Django’s ORM for efficient data handling.
+  
+ • GraphQL (API Query Language)
+- A flexible alternative to REST that lets clients request exactly the data they need.
+- Reduces over-fetching and under-fetching, improving performance for mobile and web apps.
+- Works well with Django via libraries like Graphene, enabling dynamic, schema-driven APIs.
